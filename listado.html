@@ -37,8 +37,8 @@
             </label>
         </div>
         <ul class="nav-list">
-            <!-- <li><a href="index-admin.html"><i class="fa-solid fa-arrow-right-to-bracket"></i></a></li> -->
-            <li title="Login"><a href="index.html"><i class="fas fa-shopping-cart"></i></a></li>
+            <!-- <li title="Login"><a href="index.html"><i class="fas fa-shopping-cart"></i></a></li> -->
+            <li title="Login" style="padding-left: 40em;"><a href="index.html"><i class="fa-solid fa-arrow-right-to-bracket" aria-hidden="true"></i></a></li>
         </ul>
     </nav>
 
@@ -51,12 +51,13 @@
             <thead>
                 <!--Encabezado de la tabla con columnas para código, descripción, cantidad, precio y acciones.-->
                 <tr>
-                    <th>Código</th>
+                    <th align="right">Código</th>
                     <th>Descripción</th>
                     <th>Cantidad</th>
                     <th align="right">ㅤPrecio</th>
-                    <th>Imagen</th>
-                    <th align="right">Proveedor</th>
+                    <th>ㅤImagen</th>
+                    <th align="right">Proveedor</th> <!-- si se deja comentado sacar lo que trae del back tambien, sino quedan los datos sueltos en la tabla -->
+                    
 
                 </tr>
             </thead>
@@ -101,7 +102,12 @@
                             //'<td><img src=./static/imagenes/' + producto.imagen_url +' alt="Imagen del producto" style="width: 100px;"></td>' + '<td align="right">' + producto.proveedor + '</td>';
 
                             //Al subir al servidor, deberá utilizarse la siguiente ruta. USUARIO debe ser reemplazado por el nombre de usuario de Pythonanywhere
-                            '<td><img src=https://www.pythonanywhere.com/user/ols/files/home/ols/mysite/static/imagenes/' + producto.imagen_url + ' alt="Imagen del producto" style="width: 100px;"></td>' + '<td align="right">' + producto.proveedor + '</td>';
+
+                            //sin proveedor
+                            //'<td><img src=https://www.pythonanywhere.com/user/ols/files/home/ols/mysite/static/imagenes/' + producto.imagen_url + ' alt="Imagen del producto" style="width: 100px; padding-left:1em;"></td>' + '<td align="right">' + '</td>';
+                            //con proveedor
+                            '<td><img src=https://www.pythonanywhere.com/user/ols/files/home/ols/mysite/static/imagenes/' + producto.imagen_url + ' alt="Imagen del producto" style="width: 100px; padding-left:1em;"></td>' + '<td align="right">' + producto.proveedor + '</td>';
+
 
                         //Una vez que se crea la fila con el contenido del producto, se agrega a la tabla utilizando el método appendChild del elemento tablaProductos.
                         tablaProductos.appendChild(fila);
