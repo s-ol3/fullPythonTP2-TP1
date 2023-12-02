@@ -1,2 +1,4 @@
 # fullPythonTP2-TP1
-tp2 integrado al home del tp1
+Tp2 backend integrado al home del Tp1
+
+*no responsive
