@@ -275,7 +275,14 @@ nav img:hover {
 
 /* crud ////////////////////////////////////////////////////////////////////////// */
 .container-crud {
-  margin: 7em;
+  margin: 8em;  /* 7 */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-crud1 {
+  margin: 3em; 
   display: grid;
   justify-content: center;
   align-items: center;
