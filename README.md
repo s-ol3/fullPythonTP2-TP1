@@ -4,14 +4,14 @@
 ㅤ
  🔗 [Live Admin Page](https://bonappetit-tp2-back.netlify.app/ "")
 
-ㅤ
+
 
 . GithubPages ㅤ🔗 [Live Home](https://s-ol3.github.io/fullPythonTP2-TP1/ "")
 ㅤ
 🔗 [Live Admin Page](https://s-ol3.github.io/fullPythonTP2-TP1/index.html "")
 
 
-ㅤ
+ ㅤ
 
 # TP2 . CaC . FullStack Python
 
