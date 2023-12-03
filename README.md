@@ -10,8 +10,6 @@
 
 Tp2 backend integrado al home del Tp1
  
-#
+
 
 ㅤ
-
-*no responsive
