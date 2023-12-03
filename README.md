@@ -1,14 +1,21 @@
 
-🔗 [Live Home](https://bonappetit-tp2-back.netlify.app/index-home "")
 
-🔗 [Live Admin Page](https://bonappetit-tp2-back.netlify.app/ "")
+. Netlify ㅤ🔗 [Live Home](https://bonappetit-tp2-back.netlify.app/index-home "") 
+ㅤ
+ 🔗 [Live Admin Page](https://bonappetit-tp2-back.netlify.app/ "")
+
+ㅤ
+
+. GithubPages ㅤ🔗 [Live Home](https://s-ol3.github.io/fullPythonTP2-TP1/ "")
+ㅤ
+🔗 [Live Admin Page](https://s-ol3.github.io/fullPythonTP2-TP1/index.html "")
 
 
 ㅤ
 
 # TP2 . CaC . FullStack Python
 
-Tp2 backend integrado al home del Tp1
+Tp2 backend integrado al home del [Tp1](https://github.com/s-ol3/fullPythonTP1)
  
 #
 
